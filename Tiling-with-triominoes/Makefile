@@ -1,7 +1,7 @@
 all: run
 
 run:  
-	gcc -o trominoTilling.o trominoTilling.c -lm
+	gcc -o PA2.o PA2.c -lm
 	
 clean: 
-	rm trominoTilling.o
+	rm PA2.o
